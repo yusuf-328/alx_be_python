@@ -6,18 +6,18 @@ operation = input("Choose the operation (+, -, *, /): ")
 match operation:
     case "+" :
         result = num1 + num2
-        print(f"the result of {num1} + {num2} is {result}")
+        print(f"the result is {result}")
     case "-" :
         result = num1 - num2
-        print(f"the result of {num1} - {num2} is {result}")
+        print(f"the result is {result}")
     case "*" :
         result = num1 * num2
-        print(f"the result of {num1} * {num2} is {result}")
+        print(f"the result is {result}")
     case "/" :
         if num2 == 0:
               print("cannot divide by zero")
         else: 
             result = num1 / num2
-            print(f"the result of {num1} / {num2} is {result:.1f}")
+            print(f"the result is {result:.1f}")
         
          
