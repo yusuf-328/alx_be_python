@@ -9,7 +9,7 @@ def perform_operation(num1, num2, operation):
         return num1 * num2
 
     elif operation == "divide":
-        if num2 == 0 :
+        if num2 == 0:
             print(f"{num2} cannot be divisible by zero")
         return num1 / num2
     else:
