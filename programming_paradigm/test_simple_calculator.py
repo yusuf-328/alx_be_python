@@ -18,13 +18,13 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(self.calc.subtract(1,5), -4)
 
 
-    def test_multiply(self): 
+    def test_multiplication(self): 
         self.assertEqual(self.calc.multiply(10,5), 50)
         self.assertEqual(self.calc.multiply(10,-5), -50)
         self.assertEqual(self.calc.multiply(1,-1), -1)
 
 
-    def test_divide(self): 
+    def test_division(self): 
         self.assertEqual(self.calc.divide(10,5), 2) 
         self.assertEqual(self.calc.divide(10,1), 10) 
 if __name__ =='__main__':
